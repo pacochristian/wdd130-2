@@ -1,0 +1,41 @@
+p, footer, h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+h1, h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+    font-size: large;
+}
+
+div .content {
+    text-align: center;
+}
+ol li {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* display: inline-block; */
+    list-style-position: inside;
+}
+
+img {
+    /* text-align: center; */
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+body {
+    background-color: pink;
+}
+
+* {
+    border: 2px solid blue;
+}
