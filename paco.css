@@ -1,0 +1,60 @@
+.nav {
+    background-color: steelblue;
+    background-image: url("../AboutMe/images/download.jpg");
+    /* width: 100px; */
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 10%;
+    border-radius: 500px;
+    border: 2px solid steelblue;
+    margin: 10px;
+}
+
+.link a{
+    display: block;
+    margin: 0 auto; 
+    /* text-align: center; */
+    /* color: burlywood; */
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: skyblue;
+}
+
+h1, main, footer{
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 5px skyblue;
+}
+
+main, footer {
+    font-size: x-large;
+}
+
+body {
+    background-color: burlywood;
+}
+
+footer a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+footer a:hover {
+    color: blue;
+}
+footer a:visited {
+    /* color: white; */
+}
+
+footer a:active {
+    color: yellow;
+}
