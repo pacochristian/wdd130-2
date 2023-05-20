@@ -1,9 +1,9 @@
 .nav {
-    background-color: steelblue;
-    background-image: url("../AboutMe/images/download.jpg");
+    /* background-color: steelblue; */
+    /* background-image: url("../AboutMe/images/download.jpg"); */
     /* width: 100px; */
     /* background-repeat: no-repeat; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .logo {
@@ -19,12 +19,15 @@
     /* text-align: center; */
     /* color: burlywood; */
     font-size: 1.5em;
+    /* color: rgb(29, 211, 195); */
     color: white;
     text-decoration: none;
 }
 
 .link a:hover {
-    color: skyblue;
+    /* color: white; */
+    color: rgb(29, 211, 195);
+
 }
 
 h1, main, footer{
@@ -32,7 +35,7 @@ h1, main, footer{
 }
 
 h1 {
-    text-shadow: 2px 5px skyblue;
+    /* text-shadow: 2px 5px skyblue; */
 }
 
 main, footer {
@@ -43,18 +46,24 @@ body {
     background-color: burlywood;
 }
 
-footer a {
+footer img {
     /* text-decoration: none; */
-    color: black;
+    /* color: black; */
+    width: 5%;
 }
 
-footer a:hover {
-    color: blue;
+footer img:hover {
+    /* color: blue; */
+    text-decoration: underline;
 }
-footer a:visited {
-    /* color: white; */
+.paco{
+    border-radius: 20%;
 }
 
 footer a:active {
     color: yellow;
 }
+/* 
+* {
+    border: 2px solid white;
+} */
