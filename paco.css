@@ -1,13 +1,14 @@
 .nav {
     /* background-color: steelblue; */
-    background-image: url("../AboutMe/images/");
+    /* background-image: url("../wwr/images/vidéo/vidéo-gif-animée-gratuite-libre-de-droit5"); */
     /* width: 100px; */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    width: 100%;
+    /* width: 100%; */
 }
+
 * {
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .logo {
     width: 10%;
@@ -30,7 +31,8 @@
 
 .link a:hover {
     /* color: white; */
-    color: rgb(29, 211, 195);
+    /* color: rgb(29, 211, 195); */
+    text-decoration-line: underline;
 
 }
 
@@ -47,7 +49,9 @@ main, footer {
 }
 
 body {
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    /* background-image: url("../wwr/images/vidéo-gif-animée-gratuite-libre-de-droit5"); */
+    /* background-image: transparent; */
 }
 
 footer img {
@@ -58,7 +62,7 @@ footer img {
 /* 
 footer img:hover {
     /* color: blue; */
-    /* text-decoration: underline; */ */
+    /* text-decoration: underline; */
 /* } */
 .paco{
     /* border-radius: 20%; */
@@ -66,7 +70,7 @@ footer img:hover {
 }
 
 footer a:active {
-    color: yellow;
+    /* color: yellow; */
 }
 /* 
 * {
