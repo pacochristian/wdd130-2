@@ -197,6 +197,11 @@ nav a {
     color: white;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 .card-img, .mountains {
     width: 100%;
 }

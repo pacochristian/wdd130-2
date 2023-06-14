@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    /* background-color: black; */
+}
+
+img {
+    grid-column: 2/3;
+}
+
+.post {
+    grid-column: 2/3;
+    text-align: center;
+    /* grid-row: 2/4; */
+    height: 350%;
+    width: ;
+    /* color: black; */
+    background-color: white;
+}
+
+.footer {
+    /* grid-column: 2/3;
+    height: 100px; */
+    /* width: 82px; */
+    /* background-color: blue; */
+}
+
+.grid-container {
+    /* display: grid; */
+    grid-column: 2/3;
+}
+
+.read {
+    grid-column: 2/3;
+}
+
+.views {
+    grid-column: 2/3;
+}
+
+.comments {
+    grid-column: 2/3;
+}
+* {
+    border: 2px solid blue;
+}
