@@ -55,10 +55,10 @@ section {
     /* width: 200px; */
 }
 
-.home-grid {
+/* .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-}
+} */
 *{
     /* border: 2px solid blue; */
 }
