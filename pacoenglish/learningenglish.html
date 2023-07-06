@@ -11,13 +11,23 @@
         <a id="logo_link" href="index.html">
             <img class="logo" src="../pacoenglish/images/PacoEnglish-logos_black.png" alt="Logo">
         </a>
-        <nav>
+        <!-- <nav>
             <a href="index.html">Home</a>
             <a href="aboutus.html">About us</a>
             <a href="learningenglish.html">Learning English</a>
-        </nav>
+        </nav> -->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About us</a>
+                <a href="learningenglish.html">Learning English</a>
+            </div>
+          </div>
+
     </header>
     <main>
+       
         <section class="container">
             <div>
                 <h1>The Importance of learning English</h1>
@@ -39,56 +49,57 @@
                 </p>
             </div>
             
-            <div class="time">
+       
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+     <div class="time">
                 <img src="../wwr/images/pexels-tima-miroshnichenko-5427870.jpg" width="100%" alt="image for page">
             </div>
             <div class="pool">
                 <img src="../wwr/images/pexels-polina-tankilevitch-6929219.jpg" width="100%" alt="image for page">
             </div>
-                
-            <!-- <div class="first">
-                <img src="../wwr/images/pexels-rfstudio-3059654.jpg" width="100%" height="80%" alt="image for homepage">
-            </div>
-            <div class="second">
-                <img src="../wwr/images/pexels-oladimeji-ajegbile-2861798.jpg" width="100%" height="96%" alt="image for homepage">
-            </div>
-            <div id="speak">
-                <p>
-                    We provide you with the right tools to help you be fluent. <br>
-                    Practice, Practice and Practice again will get you where you want to get.
-                    Improve your English with the <b>Reading, Writing, Listening,</b> and <b>Speaking</b>.
-                </p>
-            </div>
-            
-            <div class="para">
-                <h1>Paco English</h1>
-                <p>Paco English is meant to help you along with your <br> learning Journey,
-                    with lessons according to your level.
-                </p>
-                <p>Paco English is a program to help individuals
-                    around the world expand opportunities of
-                    employment and relationship through learning English.</p>
-
-                <p> -->
-                    <!-- Paco English is meant to help you along with your English learning Journey, with lessons according to your level and activities to help you practice the listening, writing, and reading skills. -->
-                </p>
-                <p>
-                    <!-- Learning a new language is a process that requires time, patience and perseverance. It can also be exciting and fun! <br>Congratulations on your decision to learn and practice with Paco English. -->
-                </p>    
-            </div>
-            <!-- <h1>Paco English</h1>
-            <p>The Paco English Club is meant to help you along with your <br> learning Journey,
-                with lessons according to your level.
-            </p>
-            <p>Learning a new language is a process that requires time, patience and perseverance. It can also be exciting and fun! <br>Congratulations on your decision to learn and practice English with Paco.</p>
-         -->
-        </section>
-            <!-- <h1>Paco English</h1>
-            <p>The Paco English Club is meant to help you along with your <br> learning Journey,
-                with lessons according to your level.
-            </p>
-            <p>Learning a new language is a process that requires time, patience and perseverance. It can also be exciting and fun! <br>Congratulations on your decision to learn and practice English with Paco.</p> -->
-        
+           
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    
     </main>
     <footer>
         <div class="paragraph">
