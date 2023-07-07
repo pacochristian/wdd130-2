@@ -11,11 +11,21 @@
         <a id="logo_link" href="index.html">
             <img class="logo" src="../pacoenglish/images/PacoEnglish-logos_black.png" alt="Logo">
         </a>
-        <nav>
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About us</a>
+                <a href="learningenglish.html">Learning English</a>
+            </div>
+          </div>
+
+        <!-- <nav>
             <a href="index.html">Home</a>
             <a href="aboutus.html">About us</a>
             <a href="learningenglish.html">Learning English</a>
-        </nav>
+        </nav> -->
     </header>
     <main>
         <section class="photo">
@@ -48,6 +58,58 @@
             <div class="photo2">
                 <img src="../wwr/images/pexels-tima-miroshnichenko-5198252.jpg" width="400px" alt="image for page3">
             </div>
+
+            <!-- <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+                </script> -->
+                     <!-- <div class="time">
+                                <img src="../wwr/images/pexels-tima-miroshnichenko-5427870.jpg" width="100%" alt="image for page">
+                            </div>
+                            <div class="pool">
+                                <img src="../wwr/images/pexels-polina-tankilevitch-6929219.jpg" width="100%" alt="image for page">
+                            </div>
+                            -->
+                <script>
+                    /* When the user clicks on the button, 
+                    toggle between hiding and showing the dropdown content */
+                    function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                    
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function(event) {
+                      if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                          }
+                        }
+                      }
+                    }
+                    </script>
+                    
+
         </section>
     </main>
     <footer>
