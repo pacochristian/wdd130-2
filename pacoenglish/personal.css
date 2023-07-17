@@ -20,6 +20,10 @@ body {
     
     background-color: beige;
 }
+
+h1 {
+    color: #c69f21;
+}
 header {
     display: grid;
     grid-template-columns: 150px auto;
