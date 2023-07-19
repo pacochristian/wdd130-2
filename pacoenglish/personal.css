@@ -26,7 +26,8 @@ h1 {
 }
 
 .color {
-    color: #396E94;
+    /* color: #c69f21; */
+    color: black;
 }
 header {
     display: grid;
@@ -189,7 +190,7 @@ footer {
 }
 
 .overview {
-    grid-column: 1/3;   
+    grid-column: 1/3; 
 }
 
 .faq {
