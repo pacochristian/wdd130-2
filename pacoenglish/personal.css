@@ -24,13 +24,16 @@ body {
 h1 {
     color: #c69f21;
 }
+
+.color {
+    color: #396E94;
+}
 header {
     display: grid;
     grid-template-columns: 150px auto;
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
     /* font-family: Lato, Helvetica,sans-serif; */
-
     
     /* justify-content: center; */
     width: 100%;
@@ -41,7 +44,7 @@ header {
 
 nav a {
     text-align: center;
-    color: black;
+    color: #457b9d;
     text-decoration: none;
     padding: 35px;
     display: inline-flex;
@@ -49,7 +52,7 @@ nav a {
 
 
 nav a:hover {
-    background-color: #457b9d;
+    background-color: #c69f21;
     color: white;
 }
 
